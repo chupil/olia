@@ -1,8 +1,75 @@
-.bg-color{
+body {
+    font-family: 'Lora', serif;
     background-color: #fce4ec;
 }
 
+.navbar-text {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 5px #fce4ec;
+    font-size: 2em;
 
-.align-grafik{
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2em;
+}
+
+.bg-color {
+    background-color: #f48fb1;
+    box-shadow: 4px 4px 10px #f48fb1;
+}
+
+
+.align-grafik {
     text-align: center;
+}
+
+
+.fa {
+    font-size: 1.5em;
+
+}
+
+.margin {
+    margin-top: 40px;
+}
+
+.btn-primary {
+    background-color: #d81b60;
+    border-color: #880e4f;
+}
+
+.btn-primary:hover {
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.btn-primary:focus {
+    background-color: #b0120a;
+    border-color: #b0120a;
+    box-shadow: 4px 4px 10px #b0120a;
+}
+
+.btn-primary:not([disabled]):not(.disabled).active,
+.btn-primary:not([disabled]):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #b0120a;
+    border-color: #b0120a;
+    box-shadow: 4px 4px 2px #b0120a;
+}
+
+.table-dark {
+    color: black;
+    background-color: #f48fb1;
+    height: 20%;
+}
+
+.table-dark td,
+.table-dark th {
+    border-bottom: 1px solid white;
+}
+
+.table-dark thead th {
+    border-bottom: 1px solid white;
+    border-top: none;
 }

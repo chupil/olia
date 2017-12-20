@@ -12,12 +12,12 @@ function sendForm(ev) {
             data: {
                 name: $('#inputname').val(),
                 email: $('#inputemail').val(),
-                tel: $('#inputtel').val(),
+                tel:$('#inputtel').val(),
                 feedback: $('#feedback').val()
             },
             dataType: "json"
         })
-        .done( () => $('#thank-dialog').attr('open', 'open') )
-         .fail( () => $('#error-dialog').attr('open', 'open') ); 
+         .done( () => $('#thank-dialog-close').attr('close', 'close') )
+         .fail( () => $('#error-dialog-closeW').attr('close', 'close') ); 
     }
 }
