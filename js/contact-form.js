@@ -17,7 +17,7 @@ function sendForm(ev) {
             },
             dataType: "json"
         })
-         .done( () => $('#thank-dialog-close').attr('close', 'close') )
-         .fail( () => $('#error-dialog-closeW').attr('close', 'close') ); 
+         .done( () => $('#thank-dialog-close').r )
+         .fail( () => $('#error-dialog-close').removeClass("close") ); 
     }
 }
