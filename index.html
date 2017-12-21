@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Голoвна<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="gallery.html">Гaлерея<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="http://www.laserhouse.com.ua/lviv_pricenew">Послуги</a>
@@ -112,11 +112,11 @@
                     <img class="card-img-top" src="img\botoks.png" alt="Ботокс">
                     <div class="card-body">
                         <h4 class="card-title">ІН'ЄКЦІЇ ДИСПОРТУ ТА БΟТΟКСУ</h4>
-                        <p class="card-text">Бοтοкс і Диспорт є торговими назвами ботулοтοксину типу А, який використовується в косметології з метою зменшення або блокування роботи м'язів, які відповідають за міміку обличчя.</p><br> <br>
+                        <p class="card-text">Бοтοкс і Диспорт є торговими назвами ботулοтοксину типу А, який використовується в косметології з метою зменшення або блокування роботи м'язів, які відповідають за міміку обличчя.</p><br>
                         <a href="http://www.laserhouse.com.ua/lviv_inekcii" class="btn btn-primary  align-bottom float-right">Детальніше</a>
                     </div>
                 </div>
-                <div class="card m-1 " >
+                <div class="card m-1 ">
                     <img class="card-img-top" src="img\women.png" alt="Жінка">
                     <div class="card-body">
                         <h4 class="card-title">УСУНЕННЯ ГРИЖЕВИХ МІШКІВ ПІД ОЧИМА</h4>
@@ -124,7 +124,7 @@
                         <a href="http://www.laserhouse.com.ua/blefaroplastika_lv" class="btn btn-primary align-bottom float-right">Детальніше</a>
                     </div>
                 </div>
-                <div class="card m-1 " >
+                <div class="card m-1 ">
                     <img class="card-img-top" src="img\radies.png" alt="Радіес">
                     <div class="card-body">
                         <h4 class="card-title">ВОЛЮМИЗАЦИЯ RADIESSE</h4>
@@ -142,7 +142,7 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputname">Ім'я</label>
-                        <input type="name" class="form-control" id="inputname" placeholder="Ім'я">
+                        <input type="name" class="form-control" id="inputname" placeholder="Ім'я" required>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputemail">Електронна пошта</label>
@@ -151,43 +151,34 @@
                 </div>
                 <div class="form-group">
                     <label for="inputtel">Телефон</label>
-                    <input type="tel" class="form-control" id="inputtel" placeholder="Teлефон">
+                    <input type="tel" name="tel" class="form-control" id="inputtel" placeholder="Teлефон" required>
                 </div>
                 <div class="form-group">
                     <label for="feedback">Ваше запитиння</label>
                     <textarea class="form-control" id="feedback" rows="3" placeholder="Ваше запитиння"></textarea>
                 </div>
-
                 <input type="submit" class=" float-right btn btn-primary center-block" name="submit" value="Відправити" />
 
             </form>
-
-
-            <dialog id="thank-dialog-close" class="close">
-        
-                <p>Thank you for contacting us!</p>
-            </dialog>
-            <br>
-            <dialog  id="error-dialog-close" class="close">
-                <p>Sorry, an error has occured!</p>
-            </dialog>
-
-
+            <div class="float-left">
+            <p id="thank-dialog-close" class="close fire">Дякую за звернення!</p><br>
+            <p id="error-dialog-close" class="close fire">Щось не заповнено!</p>
+            </div>
         </div>
     </main>
 
     <!--Дно-->
     <footer class="container mt-4 p-0">
         <nav class=" mx-1 navbar navbar-expand-lg navbar-light bg-color d-flex justify-content-between align-items-center rounded-top">
-            <div>
+            <div class="ddddd">
                 <a class="navbar-brand" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
             </div>
-            <div class="navbar-nav float-right">
-                <ul class="mr-auto">
-                    <li class="nav-item d-inline-block ml-1">
+            <div class="navbar-nav ddddd">
+                <ul class=" d-inline">
+                    <li class="nav-item">
                         <a class="nav-link" href="https://publicsta.com/p/oliakopchuk/1082922307/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
-                    <li class="nav-item d-inline-block ml-1">
+                    <li class="nav-item ">
                         <a class="nav-link" href="https://www.facebook.com/search/top/?q=%D0%BA%D0%BE%D0%BF%D1%87%D1%83%D0%BA"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
                 </ul>

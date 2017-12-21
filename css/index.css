@@ -80,8 +80,17 @@ body {
     border-top: none;
 }
 .close{
-    display: none;
+    display:none;
 }
-.open{
-    display:block;
+#error-dialog-close{
+    color: red;
+    text-shadow: 12px 12px 10px pink;
+}
+#thank-dialog-close{
+    color:green;
+    text-shadow: 12px 12px 10px pink;}
+
+.ddddd li{
+    display: inline-block;
+    margin:0 auto;
 }

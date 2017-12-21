@@ -1,0 +1,8 @@
+.bigger:active{
+    min-width: 50rem;
+    min-height: 50rem;
+    z-index: 213123;
+    position: absolute;
+    transform: translate(10%, -10%);
+    
+}
