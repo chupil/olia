@@ -1,4 +1,4 @@
-.bigger:active{
+.bigger:focus{
     min-width: 50rem;
     min-height: 50rem;
     z-index: 213123;
